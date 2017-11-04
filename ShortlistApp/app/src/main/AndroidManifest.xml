@@ -28,7 +28,8 @@
         <activity android:name=".CreateJobHolderActivity" />
         <activity android:name=".ViewJobHolder" />
         <activity android:name=".JobHolderDetails" />
-        <activity android:name=".Jobholderlist"></activity>
+        <activity android:name=".Jobholderlist" />
+        <activity android:name=".CreateCandidateprofileActivity"></activity>
     </application>
 
 </manifest>

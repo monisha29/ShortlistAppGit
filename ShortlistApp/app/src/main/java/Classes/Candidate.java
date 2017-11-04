@@ -17,7 +17,9 @@ public class Candidate extends Customer
    private String lastName;
    private Qualification qualification;
    private Contact contact;
-
+    private String  skill;
+    private String proficiency;
+    private String email;
     public String getFirstName() {
         return firstName;
     }
@@ -62,6 +64,30 @@ public class Candidate extends Customer
     public void setAcademics(Contact contact)
     {
         this.contact = contact;
+    }
+
+    public String getSkill() {
+        return skill;
+    }
+
+    public void setSkill(String skill) {
+        this.skill = skill;
+    }
+
+    public String getProficiency() {
+        return proficiency;
+    }
+
+    public void setProficiency(String poficiency) {
+        this.proficiency = poficiency;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public void addProfile() {
